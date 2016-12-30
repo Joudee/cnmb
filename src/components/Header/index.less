@@ -1,0 +1,63 @@
+:local(.root) {
+    width: 100%;
+    overflow: hidden;
+    background: #3e4147;
+    height: 50px;
+    padding:0 12px;
+    .searchFrame {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        background: #51555a;
+        float: right;
+        cursor: pointer;
+        position:relative;
+        .iconfont {
+            color: #A4A4A6;
+            font-size: 18px;
+            display: block;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+        }
+        input{
+        	width:250px;
+        	height:100%;
+        	display:block;
+        	padding:0 12px;
+        	border:0;
+        	background:transparent;
+        	position:absolute;
+        	top:0;
+        	left:50px;
+        	font-size: 14px;
+        	color:#fff;
+        	outline:none;
+        }
+        transition:all 0.2s ease-out;
+        -webkit-transition:all 0.2s ease-out;
+        -moz-transition:all 0.2s ease-out;
+        &:hover{
+        	width:300px;
+        	background: #333;
+        }
+    }
+    a {
+        display: inline-block;
+        width: auto;
+        height: 50px;
+        float:right;
+        color: #cbcbcb;
+        line-height: 50px;
+        padding:0 0 0 12px;
+        font-size: 14px;
+        cursor: pointer;
+        transition:all 0.2s ease-out;
+        -webkit-transition:all 0.2s ease-out;
+        -moz-transition:all 0.2s ease-out;
+        &:hover{
+        	color:#fd9446;
+        }
+    }
+}
